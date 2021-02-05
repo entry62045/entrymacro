@@ -21,4 +21,4 @@ function entrymacrostart(){
 }
 console.log('매크로를 시작합니다.');
 console.log('62045의 매크로를 사용해주셔서 감사합니다.');
-setInterval(entrymacrostart, time);``
+setInterval(entrymacrostart, time);
