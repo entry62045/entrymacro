@@ -4,14 +4,14 @@ var macrotime = prompt('매크로 돌릴 시간을 입력해주세요.');
 var time = macrotime * 1000;
 
 function entrymacrostart(){
-    await fetch('https://playentry.org/api/project/' + macro1, {
+    fetch('https://playentry.org/api/project/' + macro1, {
         method: 'PUT',
         data: 'isopen: true',
         headers: {
             'Content-Type': 'application/json'
         }
     });
-    await fetch('https://playentry.org/api/project/' + macro2, {
+    fetch('https://playentry.org/api/project/' + macro2, {
         method: 'PUT',
         data: 'isopen: true',
         headers: {
